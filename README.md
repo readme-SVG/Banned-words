@@ -18,7 +18,51 @@ The repository includes separate files for many languages (for example: Arabic, 
 
 Browse all lists in:
 
-- `Banned-words-list/`
+<!-- WORD_TABLE_START -->
+| File | Language | Words |
+| --- | --- | ---: |
+| `ar.txt` | Arabic | 58 |
+| `bn.txt` | Bengali | 33 |
+| `cs.txt` | Czech | 41 |
+| `da.txt` | Danish | 20 |
+| `de.txt` | German | 66 |
+| `el.txt` | Greek | 48 |
+| `emoji.txt` | emoji.txt | 151 |
+| `en.txt` | English | 3267 |
+| `eo.txt` | eo.txt | 37 |
+| `es.txt` | Spanish | 520 |
+| `fa.txt` | Persian | 45 |
+| `federal_government.txt` | federal_government.txt | 381 |
+| `fi.txt` | Finnish | 130 |
+| `fil.txt` | fil.txt | 13 |
+| `flags_all.txt` | flags_all.txt | 267 |
+| `fr.txt` | French | 100 |
+| `ga.txt` | Irish | 16 |
+| `gu.txt` | Gujarati | 31 |
+| `he.txt` | Hebrew | 49 |
+| `hi.txt` | Hindi | 119 |
+| `hu.txt` | Hungarian | 96 |
+| `id.txt` | Indonesian | 68 |
+| `it.txt` | Italian | 168 |
+| `ja.txt` | Japanese | 180 |
+| `kab.txt` | kab.txt | 21 |
+| `kn.txt` | Kannada | 29 |
+| `ko.txt` | Korean | 72 |
+| `ms.txt` | Malay | 31 |
+| `nl.txt` | Dutch | 190 |
+| `no.txt` | no.txt | 40 |
+| `pl.txt` | Polish | 54 |
+| `pt.txt` | Portuguese | 76 |
+| `ru.txt` | Russian | 4249 |
+| `sv.txt` | Swedish | 43 |
+| `test.txt` | test.txt | 29 |
+| `th.txt` | Thai | 31 |
+| `tlh.txt` | tlh.txt | 3 |
+| `tr.txt` | Turkish | 142 |
+| `ua.txt` | ua.txt | 136 |
+| `vi.txt` | Vietnamese | 31 |
+| `zh.txt` | Chinese | 335 |
+<!-- WORD_TABLE_END -->
 
 ## Format rules
 
