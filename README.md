@@ -26,7 +26,7 @@ Browse all lists in:
 | [🤬](https://github.com/readme-SVG/Banned-words/blob/main/Banned-words-list/es.txt) | `es.txt` | Spanish | 500 |
 | [🤬](https://github.com/readme-SVG/Banned-words/blob/main/Banned-words-list/federal_government.txt) | `federal_government.txt` | federal_government.txt | 381 |
 | [🤬](https://github.com/readme-SVG/Banned-words/blob/main/Banned-words-list/zh.txt) | `zh.txt` | Chinese | 335 |
-| [🤬](https://github.com/readme-SVG/Banned-words/blob/main/Banned-words-list/flags_all.txt) | `flags_all.txt` | flags_all.txt | 267 |
+| [🤬](https://github.com/readme-SVG/Banned-words/blob/main/Banned-words-list/flags_all.txt) | `flags_all.txt` | Flags of countries | 267 |
 | [🤬](https://github.com/readme-SVG/Banned-words/blob/main/Banned-words-list/nl.txt) | `nl.txt` | Dutch | 190 |
 | [🤬](https://github.com/readme-SVG/Banned-words/blob/main/Banned-words-list/ja.txt) | `ja.txt` | Japanese | 180 |
 | [🤬](https://github.com/readme-SVG/Banned-words/blob/main/Banned-words-list/ro.txt) | `ro.txt` | Romanian | 175 |
