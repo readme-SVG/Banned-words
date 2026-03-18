@@ -48,6 +48,7 @@ jobs:
               "zu": "Zulu", "eo": "Esperanto", "no": "Norwegian", "tlh": "Klingon",
               "kab": "Taqbaylit", "fil": "Tagalog",
               "emoji": "Emoji",
+              "flags_all": "Flags of countries",
               "placeholder": "Placeholder",
           }
 
