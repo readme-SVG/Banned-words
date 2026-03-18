@@ -1,8 +1,10 @@
 alfred nussi
+äpärä
 bylsiä
 haahka
 haista paska
 haista vittu
+hässiä
 hatullinen
 helvetisti
 hevonkuusi
@@ -13,11 +15,10 @@ hevonvitunperse
 hitosti
 hitto
 huorata
-hässiä
+jätkä
 juosten kustu
 jutku
 jutsku
-jätkä
 kananpaska
 koiranpaska
 kuin esterin perseestä
@@ -30,11 +31,11 @@ kusettaa
 kusi
 kusipää
 kusta
-kyrpiintynyt
-kyrpiintyä
-kyrpiä
 kyrpä
 kyrpänaama
+kyrpiä
+kyrpiintyä
+kyrpiintynyt
 kyrvitys
 lahtari
 lutka
@@ -70,8 +71,8 @@ paskainen
 paskamainen
 paskanmarjat
 paskantaa
-paskapuhe
 paskapää
+paskapuhe
 paskattaa
 paskiainen
 paskoa
@@ -81,10 +82,10 @@ perkele
 perkeleesti
 persaukinen
 perse
+perseääliö
 perseennuolija
 perseet olalla
 persereikä
-perseääliö
 persläpi
 perspano
 persvako
@@ -95,6 +96,7 @@ pipari
 piru
 pistää
 pyllyvako
+rättipää
 reikä
 reva
 ripsipiirakka
@@ -103,7 +105,6 @@ runkkari
 runkkaus
 runkku
 ryssä
-rättipää
 saatanasti
 suklaaosasto
 tavara
@@ -127,4 +128,3 @@ vitun
 vitusti
 vituttaa
 vitutus
-äpärä
