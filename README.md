@@ -1,5 +1,9 @@
 [![readme-SVG/Banned-words](https://raw.githubusercontent.com/OstinUA/Image-storage/main/readme/Banned-words/readme-SVG-Banned-words_readme.png)](https://github.com/OstinUA)
 
+
+> [!NOTE]
+> There are plenty of banned-word repositories out there — but most of them are abandoned, rarely updated, or only cover a handful of languages. I wanted a single, comprehensive source that actually brings everything together, so I went through dozens of repositories and websites and compiled the most complete multilingual collection I could find.
+
 ---
 
 A curated collection of banned words in multiple languages.
