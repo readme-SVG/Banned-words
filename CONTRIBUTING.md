@@ -1,4 +1,6 @@
-# Contributing
+[![readme-SVG/Banned-words](https://raw.githubusercontent.com/OstinUA/Image-storage/main/readme/readme-SVG-Banned-words_contributing.png)](https://github.com/OstinUA)
+
+---
 
 Thanks for contributing to this repository.
 
