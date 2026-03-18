@@ -1,13 +1,6 @@
-# Security Policy
+[![readme-SVG/Banned-words](https://raw.githubusercontent.com/OstinUA/Image-storage/main/readme/Banned-words/readme-SVG-Banned-words_security.png)](https://github.com/OstinUA)
 
-## Supported Versions
-
-This repository is maintained as a reference list. Security-related updates and moderation improvements are applied to the latest state of the default branch.
-
-| Version | Supported |
-| ------- | --------- |
-| Latest  | ✅        |
-| Older snapshots/forks | ❌ |
+---
 
 ## Reporting a Vulnerability
 
