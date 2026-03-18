@@ -31,6 +31,7 @@ Browse all lists in:
 | [🤬](https://github.com/readme-SVG/Banned-words/blob/main/Banned-words-list/ja.txt) | `ja.txt` | Japanese | 180 |
 | [🤬](https://github.com/readme-SVG/Banned-words/blob/main/Banned-words-list/ro.txt) | `ro.txt` | Romanian | 175 |
 | [🤬](https://github.com/readme-SVG/Banned-words/blob/main/Banned-words-list/it.txt) | `it.txt` | Italian | 168 |
+| [🤬](https://github.com/readme-SVG/Banned-words/blob/main/Banned-words-list/ta.txt) | `ta.txt` | Tamil | 165 |
 | [🤬](https://github.com/readme-SVG/Banned-words/blob/main/Banned-words-list/kk.txt) | `kk.txt` | Kazakh | 155 |
 | [🤬](https://github.com/readme-SVG/Banned-words/blob/main/Banned-words-list/emoji.txt) | `emoji.txt` | Emoji | 151 |
 | [🤬](https://github.com/readme-SVG/Banned-words/blob/main/Banned-words-list/tr.txt) | `tr.txt` | Turkish | 142 |
