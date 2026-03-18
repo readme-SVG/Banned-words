@@ -24,7 +24,7 @@
 <body>
 
 <header>
-  <input type="text" id="user" placeholder="User" value="OstinUA">
+  <input type="text" id="user" placeholder="User" value="readme-SVG">
   <input type="text" id="repo" placeholder="Repo" value="Banned-words">
   <input type="text" id="branch" value="main" style="width: 60px;">
   <input type="password" id="token" placeholder="PAT Token">
@@ -125,7 +125,8 @@ async function loadFile(path, sha, el) {
 
 function dedup() {
   const ed = document.getElementById('editor');
-  ed.value = [...new Set(ed.value.split('\n'))].join('\n');
+  const lines = ed.value.split('\n').filter(line => line.trim() !== '');
+  ed.value = [...new Set(lines)].join('\n');
 }
 
 function sortAsc() {
