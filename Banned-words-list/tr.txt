@@ -97,7 +97,6 @@ saksocuların
 saksocunun
 saksocuya
 saksocuyu
-sıçmak
 sik
 sike
 siker sikmez
@@ -116,6 +115,7 @@ sikte
 sikten
 siktir
 siktirir siktirmez
+sıçmak
 taşağa
 taşağı
 taşağın
