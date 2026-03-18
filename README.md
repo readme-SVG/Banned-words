@@ -1,4 +1,6 @@
-# Banned Words Lists for Repository Filters
+[![readme-SVG/Banned-words](https://raw.githubusercontent.com/OstinUA/Image-storage/main/readme/readme-SVG-Banned-words_readme.png)](https://github.com/OstinUA)
+
+---
 
 A curated collection of banned words in multiple languages.
 
