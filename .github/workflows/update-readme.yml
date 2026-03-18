@@ -80,21 +80,19 @@ jobs:
               "<!-- WORD_TABLE_END -->"
           )
 
-          # Первый запуск — заменяем исходный текст
-          pattern_initial = (
-              r"Browse all lists in:\n\n"
-              r"- `Banned-words-list/`"
-          )
-          # Последующие запуски — заменяем блок между маркерами
-          pattern_markers = (
-              r"Browse all lists in:\n\n"
-              r"<!-- WORD_TABLE_START -->.*?<!-- WORD_TABLE_END -->"
-          )
-
           if "<!-- WORD_TABLE_START -->" in content:
-              new_content = re.sub(pattern_markers, new_block, content, flags=re.DOTALL)
+              new_content = re.sub(
+                  r"Browse all lists in:\n\n<!-- WORD_TABLE_START -->.*?<!-- WORD_TABLE_END -->",
+                  new_block,
+                  content,
+                  flags=re.DOTALL
+              )
           else:
-              new_content = re.sub(pattern_initial, new_block, content)
+              new_content = re.sub(
+                  r"Browse all lists in:\n\n- `Banned-words-list/`",
+                  new_block,
+                  content
+              )
 
           with open(readme_path, "w", encoding="utf-8") as fh:
               fh.write(new_content)
