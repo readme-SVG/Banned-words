@@ -22,8 +22,8 @@ Browse all lists in:
 | | File | Language | Words |
 | --- | --- | --- | ---: |
 | [🤬](https://github.com/readme-SVG/Banned-words/blob/main/Banned-words-list/ru.txt) | `ru.txt` | Russian | 4249 |
-| [🤬](https://github.com/readme-SVG/Banned-words/blob/main/Banned-words-list/en.txt) | `en.txt` | English | 3267 |
-| [🤬](https://github.com/readme-SVG/Banned-words/blob/main/Banned-words-list/es.txt) | `es.txt` | Spanish | 520 |
+| [🤬](https://github.com/readme-SVG/Banned-words/blob/main/Banned-words-list/en.txt) | `en.txt` | English | 3225 |
+| [🤬](https://github.com/readme-SVG/Banned-words/blob/main/Banned-words-list/es.txt) | `es.txt` | Spanish | 500 |
 | [🤬](https://github.com/readme-SVG/Banned-words/blob/main/Banned-words-list/federal_government.txt) | `federal_government.txt` | federal_government.txt | 381 |
 | [🤬](https://github.com/readme-SVG/Banned-words/blob/main/Banned-words-list/zh.txt) | `zh.txt` | Chinese | 335 |
 | [🤬](https://github.com/readme-SVG/Banned-words/blob/main/Banned-words-list/flags_all.txt) | `flags_all.txt` | flags_all.txt | 267 |
@@ -31,15 +31,15 @@ Browse all lists in:
 | [🤬](https://github.com/readme-SVG/Banned-words/blob/main/Banned-words-list/ja.txt) | `ja.txt` | Japanese | 180 |
 | [🤬](https://github.com/readme-SVG/Banned-words/blob/main/Banned-words-list/ro.txt) | `ro.txt` | Romanian | 175 |
 | [🤬](https://github.com/readme-SVG/Banned-words/blob/main/Banned-words-list/it.txt) | `it.txt` | Italian | 168 |
-| [🤬](https://github.com/readme-SVG/Banned-words/blob/main/Banned-words-list/ta.txt) | `ta.txt` | Tamil | 165 |
 | [🤬](https://github.com/readme-SVG/Banned-words/blob/main/Banned-words-list/kk.txt) | `kk.txt` | Kazakh | 155 |
 | [🤬](https://github.com/readme-SVG/Banned-words/blob/main/Banned-words-list/emoji.txt) | `emoji.txt` | Emoji | 151 |
 | [🤬](https://github.com/readme-SVG/Banned-words/blob/main/Banned-words-list/tr.txt) | `tr.txt` | Turkish | 142 |
-| [🤬](https://github.com/readme-SVG/Banned-words/blob/main/Banned-words-list/uk.txt) | `uk.txt` | Ukrainian | 136 |
+| [🤬](https://github.com/readme-SVG/Banned-words/blob/main/Banned-words-list/uk.txt) | `uk.txt` | Ukrainian | 134 |
 | [🤬](https://github.com/readme-SVG/Banned-words/blob/main/Banned-words-list/fi.txt) | `fi.txt` | Finnish | 130 |
 | [🤬](https://github.com/readme-SVG/Banned-words/blob/main/Banned-words-list/hi.txt) | `hi.txt` | Hindi | 119 |
 | [🤬](https://github.com/readme-SVG/Banned-words/blob/main/Banned-words-list/fr.txt) | `fr.txt` | French | 100 |
 | [🤬](https://github.com/readme-SVG/Banned-words/blob/main/Banned-words-list/hu.txt) | `hu.txt` | Hungarian | 96 |
+| [🤬](https://github.com/readme-SVG/Banned-words/blob/main/Banned-words-list/ta.txt) | `ta.txt` | Tamil | 86 |
 | [🤬](https://github.com/readme-SVG/Banned-words/blob/main/Banned-words-list/pt.txt) | `pt.txt` | Portuguese | 76 |
 | [🤬](https://github.com/readme-SVG/Banned-words/blob/main/Banned-words-list/ko.txt) | `ko.txt` | Korean | 72 |
 | [🤬](https://github.com/readme-SVG/Banned-words/blob/main/Banned-words-list/id.txt) | `id.txt` | Indonesian | 68 |
