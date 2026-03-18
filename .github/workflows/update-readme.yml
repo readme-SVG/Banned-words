@@ -48,6 +48,10 @@ jobs:
               "zu": "Zulu",
           }
 
+          REPO = os.environ.get("GITHUB_REPOSITORY", "readme-SVG/Banned-words")
+          BRANCH = os.environ.get("GITHUB_REF_NAME", "main")
+          BASE_URL = f"https://github.com/{REPO}/blob/{BRANCH}/Banned-words-list"
+
           folder = "Banned-words-list"
           files = sorted(f for f in os.listdir(folder) if f.endswith(".txt"))
 
@@ -60,12 +64,15 @@ jobs:
                   count = sum(1 for line in fh if line.strip())
               rows.append((fname, lang, count))
 
+          rows.sort(key=lambda x: x[2], reverse=True)
+
           table_lines = [
-              "| File | Language | Words |",
-              "| --- | --- | ---: |",
+              "| | File | Language | Words |",
+              "| --- | --- | --- | ---: |",
           ]
           for fname, lang, count in rows:
-              table_lines.append(f"| `{fname}` | {lang} | {count} |")
+              link = f"[📄]({BASE_URL}/{fname})"
+              table_lines.append(f"| {link} | `{fname}` | {lang} | {count} |")
 
           table = "\n".join(table_lines)
 
