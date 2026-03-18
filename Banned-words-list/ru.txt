@@ -1,72 +1,3 @@
-bychara
-byk
-chernozhopyi
-dolboy'eb
-ebalnik
-ebalo
-ebalom sch'elkat
-gol
-mudack
-opizdenet
-osto'eblo
-ostokhuitel'no
-ot'ebis
-otmudohat
-otpizdit
-otsosi
-padlo
-pedik
-perdet
-petuh
-pidar gnoinyj
-pizda
-pizdato
-pizdatyi
-piz'det
-pizdetc
-pizdoi nakryt'sja
-pizd'uk
-piz`dyulina
-podi ku'evo
-poeben
-po'imat' na konchik
-po'iti posrat
-po khuy
-poluchit pizdy
-pososi moyu konfetku
-prissat
-proebat
-promudobl'adsksya pizdopro'ebina
-propezdoloch
-prosrat
-raspeezdeyi
-raspizdatyi
-raz'yebuy
-raz'yoba
-s'ebat'sya
-shalava
-styervo
-sukin syn
-svodit posrat
-svoloch
-trakhat'sya
-trimandoblydskiy pizdoproyob
-ubl'yudok
-uboy
-u'ebitsche
-vafl'a
-vafli lovit
-v pizdu
-vyperdysh
-vzdrochennyi
-yeb vas
-za'ebat
-zaebis
-zalupa
-zalupat
-zasranetc
-zassat
-zlo'ebuchy
 бздёнок
 блядки
 блядовать
@@ -84,19 +15,19 @@ zlo'ebuchy
 дерьмо
 дрочить
 другой дразнится
+ёб твою мать
 ёбарь
 ебать
 ебать-копать
 ебло
 ебнуть
-ёб твою мать
 жопа
 жополиз
 играть на кожаной флейте
 измудохать
 каждый дрочит как он хочет
-какая разница
 как два пальца обоссать
+какая разница
 курите мою трубку
 лысого в кулаке гонять
 малофья
@@ -106,16 +37,16 @@ zlo'ebuchy
 муда
 мудило
 мудозвон
-наебать
-наебениться
-наебнуться
 на фиг
 на хуй
 на хую вертеть
 на хуя
+наебать
+наебениться
+наебнуться
 нахуячиться
-невебенный
 не ебет
+невебенный
 ни за хуй собачу
 ни хуя
 обнаженный
@@ -147,5 +78,74 @@ zlo'ebuchy
 хуиней страдать
 хуиня
 хуй
-хуйнуть
 хуй пинать
+хуйнуть
+bychara
+byk
+chernozhopyi
+dolboy'eb
+ebalnik
+ebalo
+ebalom sch'elkat
+gol
+mudack
+opizdenet
+osto'eblo
+ostokhuitel'no
+ot'ebis
+otmudohat
+otpizdit
+otsosi
+padlo
+pedik
+perdet
+petuh
+pidar gnoinyj
+piz'det
+piz`dyulina
+pizd'uk
+pizda
+pizdato
+pizdatyi
+pizdetc
+pizdoi nakryt'sja
+po khuy
+po'imat' na konchik
+po'iti posrat
+podi ku'evo
+poeben
+poluchit pizdy
+pososi moyu konfetku
+prissat
+proebat
+promudobl'adsksya pizdopro'ebina
+propezdoloch
+prosrat
+raspeezdeyi
+raspizdatyi
+raz'yebuy
+raz'yoba
+s'ebat'sya
+shalava
+styervo
+sukin syn
+svodit posrat
+svoloch
+trakhat'sya
+trimandoblydskiy pizdoproyob
+u'ebitsche
+ubl'yudok
+uboy
+v pizdu
+vafl'a
+vafli lovit
+vyperdysh
+vzdrochennyi
+yeb vas
+za'ebat
+zaebis
+zalupa
+zalupat
+zasranetc
+zassat
+zlo'ebuchy
