@@ -59,7 +59,7 @@ Browse all lists in:
 | `th.txt` | Thai | 31 |
 | `tlh.txt` | tlh.txt | 3 |
 | `tr.txt` | Turkish | 142 |
-| `ua.txt` | ua.txt | 136 |
+| `uk.txt` | Ukrainian | 136 |
 | `vi.txt` | Vietnamese | 31 |
 | `zh.txt` | Chinese | 335 |
 <!-- WORD_TABLE_END -->
