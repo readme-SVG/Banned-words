@@ -1,4 +1,4 @@
-[![readme-SVG/Banned-words](https://raw.githubusercontent.com/OstinUA/Image-storage/main/readme/readme-SVG-Banned-words_contributing.png)](https://github.com/OstinUA)
+[![readme-SVG/Banned-words](https://raw.githubusercontent.com/OstinUA/Image-storage/main/readme/Banned-words/readme-SVG-Banned-words_contributing.png)](https://github.com/OstinUA)
 
 ---
 
