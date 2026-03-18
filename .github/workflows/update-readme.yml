@@ -45,7 +45,10 @@ jobs:
               "th": "Thai", "tr": "Turkish", "tk": "Turkmen", "uk": "Ukrainian",
               "ur": "Urdu", "ug": "Uyghur", "uz": "Uzbek", "vi": "Vietnamese",
               "cy": "Welsh", "xh": "Xhosa", "yi": "Yiddish", "yo": "Yoruba",
-              "zu": "Zulu",
+              "zu": "Zulu", "eo": "Esperanto", "no": "Norwegian", "tlh": "Klingon",
+              "kab": "Taqbaylit", "fil": "Tagalog",
+              "emoji": "Emoji",
+              "placeholder": "Placeholder",
           }
 
           REPO = os.environ.get("GITHUB_REPOSITORY", "readme-SVG/Banned-words")
