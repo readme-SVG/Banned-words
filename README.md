@@ -2,7 +2,7 @@
 
 
 > [!NOTE]
-> There are plenty of banned-word repositories out there — but most of them are abandoned, rarely updated, or only cover a handful of languages. I wanted a single, comprehensive source that actually brings everything together, so I went through dozens of repositories and websites and compiled the most complete multilingual collection I could find.
+> Banned-word lists exist across many repositories and websites — but after looking through most of them, the story is always the same: abandoned projects, outdated entries, or coverage limited to just one or two languages. I wanted something better. So I spent time collecting, merging, and cleaning word lists from every source I could find, across as many languages as possible. The result is this repository — an attempt to build the most complete and actively maintained multilingual banned-word collection available.
 
 ---
 
