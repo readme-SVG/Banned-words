@@ -71,7 +71,7 @@ jobs:
               "| --- | --- | --- | ---: |",
           ]
           for fname, lang, count in rows:
-              link = f"[📄]({BASE_URL}/{fname})"
+              link = f"[🤬]({BASE_URL}/{fname})"
               table_lines.append(f"| {link} | `{fname}` | {lang} | {count} |")
 
           table = "\n".join(table_lines)
