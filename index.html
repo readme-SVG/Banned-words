@@ -36,9 +36,14 @@
   <div class="sidebar" id="list">Files will appear here...</div>
   <div class="editor-wrap">
     <div class="tools" id="tools" style="display: none;">
+      <button onclick="processAll()" id="btnProcessAll" style="background: #e53935;">Process ALL (Clean & Sort)</button>
       <button onclick="dedup()" style="background: #4caf50;">Remove Duplicates</button>
       <button onclick="sortAsc()" style="background: #4caf50;">Sort A-Z</button>
-      <button onclick="saveFile()" id="btnSave" style="margin-left: auto;">Save to GitHub</button>
+      
+      <div style="margin-left: auto; display: flex; gap: 5px;">
+        <button onclick="saveFile()" id="btnSave">Save Current</button>
+        <button onclick="saveAll()" id="btnSaveAll" style="background: #ff9800;">Save ALL</button>
+      </div>
     </div>
     <textarea id="editor" disabled></textarea>
   </div>
@@ -46,6 +51,8 @@
 
 <script>
 let currentFile = null;
+let repoFiles = [];
+let fileCache = {};
 
 function b64EncodeUnicode(str) {
   return btoa(encodeURIComponent(str).replace(/%([0-9A-F]{2})/g, function(match, p1) {
@@ -72,6 +79,9 @@ async function loadRepo() {
   document.getElementById('tools').style.display = 'none';
   document.getElementById('editor').value = '';
   document.getElementById('editor').disabled = true;
+  
+  fileCache = {};
+  currentFile = null;
 
   try {
     const res = await fetch(`https://api.github.com/repos/${user}/${repo}/git/trees/${branch}?recursive=1`, {
@@ -80,18 +90,18 @@ async function loadRepo() {
     if (!res.ok) throw new Error("Access error");
 
     const data = await res.json();
-    const files = data.tree.filter(f => f.type === 'blob' && f.path.endsWith('.txt'));
+    repoFiles = data.tree.filter(f => f.type === 'blob' && f.path.endsWith('.txt'));
 
-    if (!files.length) return setStatus("No TXT files found", "red");
+    if (!repoFiles.length) return setStatus("No TXT files found", "red");
 
-    files.forEach(f => {
+    repoFiles.forEach(f => {
       const div = document.createElement('div');
       div.className = 'file';
       div.textContent = f.path;
       div.onclick = () => loadFile(f.path, f.sha, div);
       document.getElementById('list').appendChild(div);
     });
-    setStatus(`Loaded ${files.length} files`, "lime");
+    setStatus(`Loaded ${repoFiles.length} files structure`, "lime");
   } catch (e) {
     setStatus(e.message, "red");
   }
@@ -107,16 +117,26 @@ async function loadFile(path, sha, el) {
   const token = document.getElementById('token').value.trim();
 
   setStatus("Loading file...", "yellow");
-  try {
-    const res = await fetch(`https://api.github.com/repos/${user}/${repo}/contents/${path}?ref=${branch}`, {
-      headers: { 'Authorization': `Bearer ${token}`, 'Accept': 'application/vnd.github.v3.raw' }
-    });
-    if (!res.ok) throw new Error("Load failed");
+  
+  if (currentFile && fileCache[currentFile]) {
+    fileCache[currentFile].content = document.getElementById('editor').value;
+  }
 
-    document.getElementById('editor').value = await res.text();
+  try {
+    let data = fileCache[path];
+    if (!data) {
+      const res = await fetch(`https://api.github.com/repos/${user}/${repo}/contents/${path}?ref=${branch}`, {
+        headers: { 'Authorization': `Bearer ${token}`, 'Accept': 'application/vnd.github.v3.raw' }
+      });
+      if (!res.ok) throw new Error("Load failed");
+      data = { sha: sha, content: await res.text(), modified: false };
+      fileCache[path] = data;
+    }
+
+    document.getElementById('editor').value = data.content;
     document.getElementById('editor').disabled = false;
     document.getElementById('tools').style.display = 'flex';
-    currentFile = { path, sha };
+    currentFile = path;
     setStatus(`Editing: ${path}`);
   } catch (e) {
     setStatus(e.message, "red");
@@ -134,8 +154,63 @@ function sortAsc() {
   ed.value = ed.value.split('\n').sort((a, b) => a.localeCompare(b)).join('\n');
 }
 
+async function processAll() {
+  const btn = document.getElementById('btnProcessAll');
+  btn.disabled = true;
+  setStatus("Processing all files...", "yellow");
+
+  const user = document.getElementById('user').value.trim();
+  const repo = document.getElementById('repo').value.trim();
+  const branch = document.getElementById('branch').value.trim() || 'main';
+  const token = document.getElementById('token').value.trim();
+
+  try {
+    for (let i = 0; i < repoFiles.length; i++) {
+      const f = repoFiles[i];
+      setStatus(`Processing ${i+1}/${repoFiles.length}...`, "yellow");
+      
+      let data = fileCache[f.path];
+      if (!data) {
+        const res = await fetch(`https://api.github.com/repos/${user}/${repo}/contents/${f.path}?ref=${branch}`, {
+          headers: { 'Authorization': `Bearer ${token}`, 'Accept': 'application/vnd.github.v3.raw' }
+        });
+        if (res.ok) {
+          data = { sha: f.sha, content: await res.text(), modified: false };
+          fileCache[f.path] = data;
+        }
+      }
+      
+      if (data) {
+        const lines = data.content.split('\n').filter(l => l.trim() !== '');
+        const newContent = [...new Set(lines)].sort((a, b) => a.localeCompare(b)).join('\n');
+        
+        if (data.content !== newContent) {
+          data.content = newContent;
+          data.modified = true;
+        }
+      }
+    }
+    
+    if (currentFile && fileCache[currentFile]) {
+      document.getElementById('editor').value = fileCache[currentFile].content;
+    }
+    
+    setStatus("All files processed! Click 'Save ALL' to upload.", "lime");
+  } catch (e) {
+    setStatus("Error: " + e.message, "red");
+  } finally {
+    btn.disabled = false;
+  }
+}
+
 async function saveFile() {
   if (!currentFile) return;
+  const path = currentFile;
+  const edContent = document.getElementById('editor').value;
+  
+  if (fileCache[path]) {
+    fileCache[path].content = edContent;
+  }
 
   const user = document.getElementById('user').value.trim();
   const repo = document.getElementById('repo').value.trim();
@@ -144,26 +219,81 @@ async function saveFile() {
   const btn = document.getElementById('btnSave');
   
   btn.disabled = true;
-  setStatus("Saving...", "yellow");
+  setStatus(`Saving ${path}...`, "yellow");
 
   try {
-    const res = await fetch(`https://api.github.com/repos/${user}/${repo}/contents/${currentFile.path}`, {
+    const res = await fetch(`https://api.github.com/repos/${user}/${repo}/contents/${path}`, {
       method: 'PUT',
       headers: { 'Authorization': `Bearer ${token}`, 'Content-Type': 'application/json' },
       body: JSON.stringify({
-        message: `Update ${currentFile.path}`,
-        content: b64EncodeUnicode(document.getElementById('editor').value),
-        sha: currentFile.sha,
+        message: `Update ${path}`,
+        content: b64EncodeUnicode(edContent),
+        sha: fileCache[path].sha,
         branch: branch
       })
     });
     if (!res.ok) throw new Error("Save error");
 
     const data = await res.json();
-    currentFile.sha = data.content.sha;
-    setStatus("Saved!", "lime");
+    fileCache[path].sha = data.content.sha;
+    fileCache[path].modified = false;
+    setStatus("Saved current file!", "lime");
   } catch (e) {
     setStatus(e.message, "red");
+  } finally {
+    btn.disabled = false;
+  }
+}
+
+async function saveAll() {
+  const btn = document.getElementById('btnSaveAll');
+  btn.disabled = true;
+  
+  const user = document.getElementById('user').value.trim();
+  const repo = document.getElementById('repo').value.trim();
+  const branch = document.getElementById('branch').value.trim();
+  const token = document.getElementById('token').value.trim();
+
+  if (currentFile && fileCache[currentFile]) {
+    const edVal = document.getElementById('editor').value;
+    if (fileCache[currentFile].content !== edVal) {
+      fileCache[currentFile].content = edVal;
+      fileCache[currentFile].modified = true;
+    }
+  }
+
+  try {
+    let savedCount = 0;
+    const keys = Object.keys(fileCache);
+    
+    for (let i = 0; i < keys.length; i++) {
+      const path = keys[i];
+      if (fileCache[path].modified) {
+        setStatus(`Saving ${path}...`, "yellow");
+        
+        const res = await fetch(`https://api.github.com/repos/${user}/${repo}/contents/${path}`, {
+          method: 'PUT',
+          headers: { 'Authorization': `Bearer ${token}`, 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            message: `Global Update ${path}`,
+            content: b64EncodeUnicode(fileCache[path].content),
+            sha: fileCache[path].sha,
+            branch: branch
+          })
+        });
+        
+        if (!res.ok) throw new Error(`Save error: ${path}`);
+        
+        const data = await res.json();
+        fileCache[path].sha = data.content.sha;
+        fileCache[path].modified = false;
+        savedCount++;
+      }
+    }
+    
+    setStatus(savedCount > 0 ? `Saved ${savedCount} files successfully!` : "No changes to save.", "lime");
+  } catch (e) {
+    setStatus("Error saving: " + e.message, "red");
   } finally {
     btn.disabled = false;
   }
