@@ -1,0 +1,111 @@
+name: Update README
+
+on:
+  push:
+    paths:
+      - 'Banned-words-list/**'
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate file table and update README
+        run: |
+          python3 << 'EOF'
+          import os
+          import re
+
+          LANG_MAP = {
+              "af": "Afrikaans", "sq": "Albanian", "am": "Amharic", "ar": "Arabic",
+              "hy": "Armenian", "az": "Azerbaijani", "eu": "Basque", "be": "Belarusian",
+              "bn": "Bengali", "bs": "Bosnian", "bg": "Bulgarian", "ca": "Catalan",
+              "zh": "Chinese", "hr": "Croatian", "cs": "Czech", "da": "Danish",
+              "nl": "Dutch", "en": "English", "et": "Estonian", "fi": "Finnish",
+              "fr": "French", "gl": "Galician", "ka": "Georgian", "de": "German",
+              "el": "Greek", "gu": "Gujarati", "ht": "Haitian Creole", "ha": "Hausa",
+              "he": "Hebrew", "hi": "Hindi", "hu": "Hungarian", "is": "Icelandic",
+              "id": "Indonesian", "ga": "Irish", "it": "Italian", "ja": "Japanese",
+              "kn": "Kannada", "kk": "Kazakh", "km": "Khmer", "ko": "Korean",
+              "ky": "Kyrgyz", "lo": "Lao", "lv": "Latvian", "lt": "Lithuanian",
+              "lb": "Luxembourgish", "mk": "Macedonian", "mg": "Malagasy",
+              "ms": "Malay", "ml": "Malayalam", "mt": "Maltese", "mi": "Maori",
+              "mr": "Marathi", "mn": "Mongolian", "my": "Myanmar", "ne": "Nepali",
+              "nb": "Norwegian", "or": "Odia", "ps": "Pashto", "fa": "Persian",
+              "pl": "Polish", "pt": "Portuguese", "pa": "Punjabi", "ro": "Romanian",
+              "ru": "Russian", "sm": "Samoan", "sr": "Serbian", "si": "Sinhala",
+              "sk": "Slovak", "sl": "Slovenian", "so": "Somali", "es": "Spanish",
+              "su": "Sundanese", "sw": "Swahili", "sv": "Swedish", "tl": "Tagalog",
+              "tg": "Tajik", "ta": "Tamil", "tt": "Tatar", "te": "Telugu",
+              "th": "Thai", "tr": "Turkish", "tk": "Turkmen", "uk": "Ukrainian",
+              "ur": "Urdu", "ug": "Uyghur", "uz": "Uzbek", "vi": "Vietnamese",
+              "cy": "Welsh", "xh": "Xhosa", "yi": "Yiddish", "yo": "Yoruba",
+              "zu": "Zulu",
+          }
+
+          folder = "Banned-words-list"
+          files = sorted(f for f in os.listdir(folder) if f.endswith(".txt"))
+
+          rows = []
+          for fname in files:
+              code = fname.replace(".txt", "")
+              lang = LANG_MAP.get(code, fname)
+              path = os.path.join(folder, fname)
+              with open(path, encoding="utf-8", errors="ignore") as fh:
+                  count = sum(1 for line in fh if line.strip())
+              rows.append((fname, lang, count))
+
+          table_lines = [
+              "| File | Language | Words |",
+              "| --- | --- | ---: |",
+          ]
+          for fname, lang, count in rows:
+              table_lines.append(f"| `{fname}` | {lang} | {count} |")
+
+          table = "\n".join(table_lines)
+
+          readme_path = "README.md"
+          with open(readme_path, encoding="utf-8") as fh:
+              content = fh.read()
+
+          new_block = (
+              "Browse all lists in:\n\n"
+              "<!-- WORD_TABLE_START -->\n"
+              + table + "\n"
+              "<!-- WORD_TABLE_END -->"
+          )
+
+          # Первый запуск — заменяем исходный текст
+          pattern_initial = (
+              r"Browse all lists in:\n\n"
+              r"- `Banned-words-list/`"
+          )
+          # Последующие запуски — заменяем блок между маркерами
+          pattern_markers = (
+              r"Browse all lists in:\n\n"
+              r"<!-- WORD_TABLE_START -->.*?<!-- WORD_TABLE_END -->"
+          )
+
+          if "<!-- WORD_TABLE_START -->" in content:
+              new_content = re.sub(pattern_markers, new_block, content, flags=re.DOTALL)
+          else:
+              new_content = re.sub(pattern_initial, new_block, content)
+
+          with open(readme_path, "w", encoding="utf-8") as fh:
+              fh.write(new_content)
+
+          print(f"README updated: {len(rows)} files listed.")
+          EOF
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --cached --quiet || git commit -m "docs: update word list table in README"
+          git push
