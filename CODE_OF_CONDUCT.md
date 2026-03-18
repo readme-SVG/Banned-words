@@ -1,4 +1,6 @@
-# Contributor Covenant Code of Conduct
+[![readme-SVG/Banned-words](https://raw.githubusercontent.com/OstinUA/Image-storage/main/readme/Banned-words/readme-SVG-Banned-words_%D1%81odeof%D1%81onduct.png)](https://github.com/OstinUA)
+
+---
 
 ## Our Pledge
 
