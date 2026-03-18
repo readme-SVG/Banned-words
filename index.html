@@ -145,7 +145,8 @@ async function loadFile(path, sha, el) {
 
 function dedup() {
   const ed = document.getElementById('editor');
-  const lines = ed.value.split('\n').filter(line => line.trim() !== '');
+  // Приводим все к нижнему регистру для любых языков мира, убираем пробелы и пустые строки
+  const lines = ed.value.split('\n').map(line => line.trim().toLowerCase()).filter(line => line !== '');
   ed.value = [...new Set(lines)].join('\n');
 }
 
@@ -181,7 +182,8 @@ async function processAll() {
       }
       
       if (data) {
-        const lines = data.content.split('\n').filter(l => l.trim() !== '');
+        // Очистка и удаление дубликатов для всех загруженных файлов
+        const lines = data.content.split('\n').map(l => l.trim().toLowerCase()).filter(l => l !== '');
         const newContent = [...new Set(lines)].sort((a, b) => a.localeCompare(b)).join('\n');
         
         if (data.content !== newContent) {
