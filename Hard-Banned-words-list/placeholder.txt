@@ -1,7 +1,6 @@
 account
 admin
-anon
-anonymous
+anon*
 bot
 client
 default
@@ -21,9 +20,7 @@ profile
 qwerty
 sample
 temp
-test
-tester
+test*
 unknown
-user
-username
+user*
 visitor
