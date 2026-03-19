@@ -1,21 +1,14 @@
 allupato
 ammucchiata
 anale
-arrapato
-arrusa
-arruso
+arr*
 assatanato
-bagascia
-bagassa
-bagnarsi
-baldracca
-balle
-battere
-battona
+bag*
+bal*
+batt*
 belino
 biga
-bocchinara
-bocchino
+bocchin*
 bofilo
 boiata
 bordello
@@ -23,98 +16,64 @@ brinca
 bucaiolo
 budiùlo
 busone
-cacca
-caciocappella
+cac*
 cadavere
-cagare
-cagata
-cagna
+cag*
 casci
-cazzata
-cazzimma
-cazzo
-cazzone
+cazz*
 cesso
 checca
-chiappa
-chiavare
-chiavata
+chia*
 ciospo
-ciucciami il cazzo
-coglione
-coglioni
+ciucciami && il && cazzo
+coglion*
 cornuto
 cozza
-culattina
-culattone
-culo
+cul*
 ditalino
 fava
 femminuccia
 fica
-figa
-figlio di buona donna
-figlio di puttana
-figone
+fig*
+figlio && di && buona && donna
+figlio && di && puttana
 finocchio
-fottere
-fottersi
+fotter*
 fracicone
 fregna
-frocio
-froscio
+fro*cio
 goldone
 guardone
 imbecille
-incazzarsi
-incoglionirsi
+inc*rsi
 ingoio
-leccaculo
-lecchino
-lofare
-loffa
-loffare
+lecc*
+lof*
 mannaggia
-merda
-merdata
-merdoso
+merd*
 mignotta
-minchia
-minchione
-mona
-monta
-montare
+minchi*
+mon*
 mussa
-nave scuola
+nave && scuola
 nerchia
 padulo
-palle
-palloso
-patacca
-patonza
+pall*
+pat*
 pecorina
 pesce
 picio
-pincare
-pinnolone
-pipì
-pippa
-pippone
+pin*
+pip*
 pirla
-pisciare
-piscio
-pisello
-pistolotto
-pomiciare
-pompa
-pompino
-porca
-porca madonna
-porca miseria
-porca puttana
-porco
-porco due
-porco zio
+pis*
+pom*
+porc*
+porca && madonna
+porca && miseria
+porca && puttana
+porco && due
+porco && zio
 potta
 puppami
 puttana
@@ -123,46 +82,33 @@ recchione
 regina
 rincoglionire
 rizzarsi
-rompiballe
-rompipalle
+rompi*alle
 ruffiano
-sbattere
-sbattersi
-sborra
-sborrata
-sborrone
+sbatter*
+sborr*
 sbrodolata
-scopare
-scopata
-scorreggiare
+sco*
 sega
-slinguare
-slinguata
+slingua*
 smandrappata
-soccia
-socmel
+soc*
 sorca
 spagnola
 spompinare
 sticchio
-stronza
-stronzata
-stronzo
-succhiami
-succhione
-sveltina
-sverginare
+stronz*
+succhi*
+sve*
 tarzanello
 terrone
-testa di cazzo
+testa && di && cazzo
 tette
 tirare
 topa
-troia
-trombare
+tro*
 vacca
 vaffanculo
 vangare
 zinne
-zio cantante
+zio && cantante
 zoccola
