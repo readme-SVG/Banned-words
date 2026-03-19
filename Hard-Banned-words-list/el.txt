@@ -1,47 +1,31 @@
-ái gamísou
-ái sichtír
-ánte gamísou
-gamísou
-gamó
-gamó tin poutána sou
-gamó to spíti sou
-gamóto
+ái && gamísou
+ái && sichtír
+ánte && gamísou
+gam*
+gamó && tin && poutána && sou
+gamó && to && spíti && sou
 ilíthios
 kariólis
-kológeros
-kolomparás
-kolopaídi
-kolotoúmpa
-malaka
-malakas
-malakía
-mounáki
-mouní
+kol*
+malak*
+moun*
 poústis
 poutána
 sichtír)
 skatá
 vlákas
-άι γαμήσου
-άι σιχτίρ
-άντε γαμήσου
+άι && γαμήσου
+άι && σιχτίρ
+άντε && γαμήσου
 βλάκας
-γαμήσου
-γαμώ
-γαμώ την πουτάνα σου
-γαμώ το σπίτι σου
-γαμώτο
+γαμ*
+γαμώ && την && πουτάνα && σου
+γαμώ && το && σπίτι && σου
 ηλίθιος
 καριόλης
-κωλόγερος
-κωλομπαράς
-κωλοπαίδι
-κωλοτούμπα
-μαλάκα
-μαλάκας
-μαλακία
-μουνάκι
-μουνί
+κωλ*
+μαλ*
+μουν*
 πούστης
 πουτάνα
 σιχτίρ
