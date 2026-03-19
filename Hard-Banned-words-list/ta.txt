@@ -1,86 +1,69 @@
 adhigaprasangi
-arivu ketta mundam
+arivu && ketta && mundam
 baadu
 badu
-dhanda soru
 dhandam
-dhandasoru
+dhandasoru*
 erumai
-erumai maadu
-gomma
-gommaala
+erumai && maadu
+gomma*
 gotha
 gumbal
 izhavu
 kammanatti
-karumaandharam
-karumam
+karuma*
 kasmalam
 kattai
-koomuttai
-koothi
-koothi kalutha
-kutti sevuru
+koo*
+koothi && kalutha
+kutti && sevuru
 loosu
 maalam
 mairamandi
-maramanda
-maramandai
+maramanda*
 mayir
 moodevi
-mundhirikottai
-mundirikottai
+mund*irikottai
 muttaal
 naayae
 nakkittu
-nakkittu po
+nakkittu && po
 okkaali
 olemari
-omma
-ommala
-oombaatha
-oombaatha vaaya
-oombu
-oombu naayae
-otha
-othittu
-othittu po
+omma*
+oomb*
+oombaatha && vaaya
+oombu && naayae
+oth*
+othittu && po
 paithiyam
 panni
-panni gumbal
+panni && gumbal
 pavadaiya
 pee
-pee thinnu
-penins detached
+pee && thinnu
+penins && detached
 pisasu
 pochu
 poolu
-poolu aruntha
-poolu oombu
-porambokku
-porukki
-punda
-punda mavan
-punda naayae
-pundai
-pundai mavan
+poolu && aruntha
+poolu && oombu
+por*
+punda && mavan
+punda && naayae
+punda*
+pundai && mavan
 puramboku
 saavugrakki
 saniyan
 soothu
-sori naai
+sori && naai
 sunni
-sutha moodu
-thayoli
-thayoli mavan
-thayozhi
-thevidiya
-thevidiyapillai
-thevudiya
+sutha && moodu
+thayo*
+thayoli && mavan
+thev*
 thinnu
-ungommala
-ungoya
+ungo*
 vaaya
-yeruma
-yerumama
-yerumamaadu
+yeruma*
