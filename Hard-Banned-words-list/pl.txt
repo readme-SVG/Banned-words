@@ -1,53 +1,37 @@
-burdel
-burdelmama
-chuj
-chujnia
+burdel*
+chuj*
 ciota
 cipa
 cyc
 debil
 dmuchać
-do kurwy nędzy
-dupa
-dupek
-duperele
+do && kurwy && nędzy
+dup*
 dziwka
 fiut
 gówno
-gówno prawda
+gówno && prawda
 huj
-huj ci w dupę
-ja pierdolę
-jajco
-jajko
-jebać
-jebany
-kurwa
-kurwy
-kutafon
-kutas
-lizać pałę
-obciągać chuja
-obciągać fiuta
-obciągać loda
-pieprzyć
-pierdoła
-pierdolec
-pierdolić
-pierdolnąć
-pierdolnięty
-pierdzieć
+huj && ci && w && dupę
+ja && pierdolę
+jaj*
+jeba*
+kurw*
+kuta*
+lizać && pałę
+obciągać && chuja
+obciągać && fiuta
+obciągać && loda
+pie*
 pizda
-pojeb
-pojebany
+pojeb*
 popierdolony
-robic loda
-robić loda
+robic && loda
+robić && loda
 ruchać
 rzygać
 skurwysyn
-srać
-sraczka
+sra*
 suka
 syf
 wkurwiać
