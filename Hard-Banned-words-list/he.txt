@@ -1,16 +1,15 @@
-bat zona
-ben zona
-chamor
-chara
+bat && zona
+ben && zona
+cha*
 fak
 hara
 idiot
 kalba
 kelev
-kus emak
-kus ima shelcha
-kus rabbak
-lech tizdayen
+kus && emak
+kus && ima && shelcha
+kus && rabbak
+lech && tizdayen
 manyak
 metumtam
 putana
@@ -19,24 +18,22 @@ shit
 shmuck
 tipesh
 tistom
-tistom et hape
+tistom && et && hape
 tizdayen
-zayin
-zayn
+zay*
 zona
 אידיוט
-בן זונה
-בת זונה
+בן && זונה
+בת && זונה
 זונה
 זין
 חמור
 חרה
 טיפש
-כוס אמך
-כוס רבאק
-כלב
-כלבה
-לך תזדיין
+כוס && אמך
+כוס && רבאק
+כלב*
+לך && תזדיין
 מטומטם
 מניאק
 פאק
@@ -46,4 +43,4 @@ zona
 שרמוטה
 תזדיין
 תסתום
-תסתום את הפה
+תסתום && את && הפה
