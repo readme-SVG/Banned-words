@@ -1,13 +1,12 @@
-anak ka ng puta
+anak && ka && ng && puta
 bayag
 bobo
 burat
 jakol
 kantot
 nognog
-puta ka
-putang ina
-tang ina
+puta && ka
+putang && ina
 tanga
-tangina
+tangina*
 ulol
