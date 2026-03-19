@@ -1,23 +1,17 @@
 arsle
 brutta
 discofitta
-dra åt helvete
+dra && åt && helvete
 fan
-fitta
-fittig
-för helvete
+fitt*
+för && helvete
 hård
 helvete
 jävlar
 knulla
-kötthuvud
-köttnacke
-kuk
-kuksås
-moona
-moonade
-moonar
-moonat
+kött*
+kuk*
+moona*
 mutta
 neger
 nigger
@@ -26,18 +20,15 @@ pippa
 pitt
 pök
 prutt
-röv
-rövhål
-rövknulla
+röv*
 runka
 sås
 satan
-sätta på
+sätta && på
 skäggbiff
-skit ner dig
+skit && ner && dig
 skita
-snedfitta
-snefitta
+sne*fitta
 stake
 subba
 tusan
