@@ -1,119 +1,76 @@
-aand
-aandu
-balatkar
-balatkari
-behen chod
-beti chod
-bhadva
-bhadve
-bhandve
-bhangi
-bhootni ke
+aand*
+balatkar*
+behen && chod
+beti && chod
+bha*
+bhootni && ke
 bhosad
-bhosadi ke
+bhosadi && ke
 boobe
 chakke
-chinaal
-chinki
-chod
-chodu
-chodu bhagat
-chooche
-choochi
-choope
-choot
-choot ke baal
-chootia
-chootiya
-chuche
-chuchi
-chudaap
-chudai khanaa
-chudam chudai
-chude
-chut
-chut ka chuha
-chut ka churan
-chut ka mail
-chut ke baal
-chut ke dhakkan
-chut maarli
-chutad
-chutadd
-chutan
-chutia
-chutiya
-gaand
-gaandfat
-gaandmasti
-gaandufad
-gandfattu
-gandu
-gashti
-gasti
-ghassa
-ghasti
-gucchi
-gucchu
-harami
-haramzade
+chin*
+cho*
+chodu && bhagat
+choot && ke && baal
+chu*
+chudai && khanaa
+chudam && chudai
+chut && ka && chuha
+chut && ka && churan
+chut && ka && mail
+chut && ke && baal
+chut && ke && dhakkan
+chut && maarli
+gaand*
+gand*
+gas*
+ghas*
+gucch*
+haram*
 hawas
-hawas ke pujari
-hijda
-hijra
-jhant
-jhant chaatu
-jhant ka keeda
-jhant ke baal
-jhant ke pissu
-jhantu
-kamine
-kaminey
+hawas && ke && pujari
+hij*
+jhant && chaatu
+jhant && ka && keeda
+jhant && ke && baal
+jhant && ke && pissu
+jhant*
+kamine*
 kanjar
-kutta
-kutta kamina
-kutte ki aulad
-kutte ki jat
-kuttiya
-loda
-lodu
-lund
-lund choos
-lund ka bakkal
-lund khajoor
-lundtopi
-lundure
-maa ki chut
+kutt*
+kutta && kamina
+kutte && ki && aulad
+kutte && ki && jat
+lod*
+lund && choos
+lund && ka && bakkal
+lund && khajoor
+lund*
+maa && ki && chut
 maal
-madar chod
-madarchod
+madarchod*
 madhavchod
-mooh mein le
-mutth
-mutthal
+mooh && mein && le
+mutth*
 najayaz
-najayaz aulaad
-najayaz paidaish
+najayaz && aulaad
+najayaz && paidaish
 paki
-pataka
-patakha
+patak*
 raand
-randaap
-randi
-randi rona
+rand*
+randi && rona
 saala
-saala kutta
-saali kutti
-saali randi
+saala && kutta
+saali && kutti
+saali && randi
 suar
-suar ke lund
-suar ki aulad
-tatte
-tatti
-teri maa ka bhosada
-teri maa ka boba chusu
-teri maa ki behenchod
-teri maa ki chut
-tharak
-tharki
-tu chuda
+suar && ke && lund
+suar && ki && aulad
+tatt*
+teri && maa && ka && bhosada
+teri && maa && ka && boba && chusu
+teri && maa && ki && behenchod
+teri && maa && ki && chut
+thar*
+tu && chuda
