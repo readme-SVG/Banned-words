@@ -1,40 +1,26 @@
 asshole
-dritt
-drittsekk
+dritt*
 faen
-faen i helvete
-fan
-fanken
+faen && i && helvete
+fan*
 fitte
-føkk
-føkka
-føkkings
-forbanna
-forbannet
-forjævlig
+føkk*
+for*
 fuck
-fy faen
-helvete
-helvetet
-jævla
-jævlig
-kuk
-kukene
-kuker
-morraknuller
-morrapuler
+fy && faen
+helvete*
+jævl*
+kuk*
+morra*ler
 nigger
 pakkis
 pikk
 pokker
-ræva
-ræven
+ræv*
 satan
 shit
 sinnsykt
 skitt
 sotrør
-ståpikk
-ståpikkene
-ståpikker
+ståpikk*
 svartheiteste
