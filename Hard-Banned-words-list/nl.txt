@@ -1,57 +1,49 @@
-aardappels afgieten
-achter het raam zitten
+aardappels && afgieten
+achter && het && raam && zitten
 afberen
 aflebberen
-afrossen
-afrukken
+afr*
 aftrekken
 afwerkplaats
-afzeiken
-afzuigen
+afz*
 anita
 asbak
 aso
-bagger schijten
+bagger && schijten
 balen
 bedonderen
-befborstel
-beffen
+bef*
 bekken
 belazeren
-besodemieterd zijn
+besodemieterd && zijn
 besodemieteren
 beurt
-boemelen
-boerelul
-boerenpummel
+boe*
 bokkelul
 botergeil
 broekhoesten
 brugpieper
 buffelen
-buiten de pot piesen
-da's kloten van de bok
-de ballen
-de hoer spelen
-de hond uitlaten
-de koffer induiken
-de pijp uitgaan
+buiten && de && pot && piesen
+da's && kloten && van && de && bok
+de && ballen
+de && hoer && spelen
+de && hond && uitlaten
+de && koffer && induiken
+de && pijp && uitgaan
 del
 dombo
 draaikont
-driehoog achter wonen
-drol
-drooggeiler
-droogkloot
-een beurt geven
-een halve man en een paardekop
-een nummertje maken
-een wip maken
+driehoog && achter && wonen
+dro*
+een && beurt && geven
+een && halve && man && en && een && paardekop
+een && nummertje && maken
+een && wip && maken
 eikel
 engerd
 flamoes
-flikken
-flikker
+flikke*
 gadverdamme
 galbak
 gat
@@ -59,16 +51,11 @@ gedoogzone
 geilneef
 gesodemieter
 godverdomme
-graftak
-gras maaien
-gratenkut
+gra*
+gras && maaien
 greppeldel
 griet
-hoempert
-hoer
-hoerenbuurt
-hoerenloper
-hoerig
+hoe*
 hol
 hufter
 huisdealer
@@ -77,87 +64,61 @@ kanen
 kettingzeug
 klaarkomen
 klerebeer
-klojo
-klooien
-klootjesvolk
-klootoog
-klootzak
-kloten
+klo*
 knor
-kont
-kontneuken
+kont*
 krentekakker
-kut
-kuttelikkertje
+kut*
 kwakkie
 liefdesgrot
-lul
 lul-de-behanger
-lulhannes
+lul*
 lummel
 mafketel
-matennaaier
-matje
+mat*
 mof
 muts
-naaien
-naakt
-neuken
-neukstier
+naa*
+neuk*
 nicht
 oetlul
-op z'n hondjes
-op z'n sodemieter geven
+op && z'n && hondjes
+op && z'n && sodemieter && geven
 opgeilen
 opkankeren
 oprotten
 opsodemieteren
 opzouten
-ouwe rukker
-ouwehoer
-ouwehoeren
-paal
-paardelul
+ouwe && rukker
+ouwehoer*
+paa*
 palen
 penoze
 piesen
-pijpbekkieg
-pijpen
+pijp*
 pik
 pleurislaaier
-poep
-poepen
+poep*
 poot
 portiekslet
-pot
-potverdorie
+pot*
 publiciteitsgeil
 raaskallen
-reet
-reet trappen, voor zijn
-reetridder
+reet && trappen, && voor && zijn
+reet*
 remsporen
 reutelen
-rothoer
-rotzak
-rukhond
-rukken
-schatje
-schijt
-schijten
-schoft
-schuinsmarcheerder
+rot*
+ruk*
+sch*
 shit
-slempen
-slet
-sletterig
-slik mijn zaad
+sle*
+slik && mijn && zaad
 snol
 spuiten
 standje
 standje-69
-stoephoer
-stootje
+sto*
 stront
 sufferd
 tapijtnek
@@ -167,16 +128,14 @@ teringlijer
 toeter
 tongzoeng
 triootjeg
-trottoir prostituée
+trottoir && prostituée
 trottoirteef
-vergallen
-verkloten
-verneuken
+ver*
 viespeuk
 vingeren
 vleesroos
-voor jan lul
-voor jan-met-de-korte-achternaam
+voor && jan && lul
+voor && jan-met-de-korte-achternaam
 watje
 welzijnsmafia
 wijf
@@ -184,7 +143,5 @@ wippen
 wuftje
 zaadje
 zakkenwasser
-zeiken
-zeiker
-zuigen
-zuiplap
+zeike*
+zui*
