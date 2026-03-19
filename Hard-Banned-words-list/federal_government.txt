@@ -1,381 +1,303 @@
 abortion
-accessibility
-accessible
-activism
-activists
-advocacy
-advocate
-advocates
-affirmative action
-affirmative action programs
-affirming care
-affordable home
-affordable housing
-agricultural water
+accessib*
+activis*
+advoca*
+affirmative && action
+affirmative && action && programs
+affirming && care
+affordable && home
+affordable && housing
+agricultural && water
 agrivoltaics
-air pollution
+air && pollution
 all-inclusive
 allyship
-alternative energy
+alternative && energy
 anti-racism
 antiracist
 asexual
-assigned at birth
-assigned female at birth
-assigned male at birth
-at risk
+assigned && at && birth
+assigned && female && at && birth
+assigned && male && at && birth
+at && risk
 autism
-aviation fuel
-barrier
-barriers
+aviation && fuel
+barrier*
 belong
-bias
-biased
-biased toward
-biases
-biases towards
-bioenergy
-biofuel
-biogas
-biologically female
-biologically male
-biomethane
+bias*
+biased && toward
+biases && towards
+bio*
+biologically && female
+biologically && male
 bipoc
 bisexual
 black
-black and latinx
-breastfeed + people
-breastfeed + person
-cancer moonshot
-carbon emissions mitigation
-carbon footprint
-carbon markets
-carbon pricing
-carbon sequestration
+black && and && latinx
+breastfeed && + && people
+breastfeed && + && person
+cancer && moonshot
+carbon && emissions && mitigation
+carbon && footprint
+carbon && markets
+carbon && pricing
+carbon && sequestration
 cec
-changing climate
-chestfeed + people
-chestfeed + person
-clean energy
-clean fuel
-clean power
-clean water
-climate
-climate accountability
-climate change
-climate consulting
-climate crisis
-climate model
-climate models
-climate resilience
-climate risk
-climate science
-climate smart agriculture
-climate smart forestry
-climate variability
-climate-change
-climatesmart
-commercial sex worker
+changing && climate
+chestfeed && + && people
+chestfeed && + && person
+clean && energy
+clean && fuel
+clean && power
+clean && water
+climate && accountability
+climate && consulting
+climate && crisis
+climate && model
+climate && models
+climate && resilience
+climate && risk
+climate && science
+climate && smart && agriculture
+climate && smart && forestry
+climate && variability
+climate*
+climatechange*
+commercial && sex && worker
 community
-community diversity
-community equity
-confirmation bias
-contaminants of environmental concern
+community && diversity
+community && equity
+confirmation && bias
+contaminants && of && environmental && concern
 continuum
 covid-19
-critical race theory
-cultural competence
-cultural differences
-cultural heritage
-cultural relevance
-cultural sensitivity
-culturally appropriate
-culturally responsive
+critical && race && theory
+cultural && competence
+cultural && differences
+cultural && heritage
+cultural && relevance
+cultural && sensitivity
+culturally && appropriate
+culturally && responsive
 decarbonization
 definition
-dei
-deia
-deiab
-deij
+dei*
 diesel
-dietary guidelines/ultraprocessed foods
-dirty energy
-disabilities
-disability
-disabled
-disadvantaged
-discriminated
-discrimination
-discriminatory
-discussion of federal policies
-disparity
-diverse
-diverse backgrounds
-diverse communities
-diverse community
-diverse group
-diverse groups
-diversified
-diversify
-diversifying
-diversity
-diversity and inclusion
-diversity in the workplace
-diversity, equity, and inclusion
-diversity/equity efforts
+dietary && guidelines/ultraprocessed && foods
+dirty && energy
+dis*
+discussion && of && federal && policies
+divers*
+diverse && backgrounds
+diverse && communities
+diverse && community
+diverse && group
+diverse && groups
+diversity && and && inclusion
+diversity && in && the && workplace
+diversity, && equity, && and && inclusion
+diversity/equity && efforts
 eej
 ej
 elderly
-electric vehicle
+electric && vehicle
 emissions
-energy conversion
-energy transition
-enhance the diversity
-enhancing diversity
+energy && conversion
+energy && transition
+enhance && the && diversity
+enhancing && diversity
 entitlement
-environmental justice
-environmental quality
-equal opportunity
-equality
-equitable
-equitableness
-equity
-ethanol
-ethnicity
+environmental && justice
+environmental && quality
+equ*
+equal && opportunity
+eth*
 evidence-based
-excluded
-exclusion
+exclu*
 expression
-female
-females
-feminism
+fem*
 fetus
-field drainage
+field && drainage
 fluoride
-fostering inclusivity
-fuel cell
+fostering && inclusivity
+fuel && cell
 gay
 gbv
-gender
-gender based
-gender based violence
-gender diversity
-gender dysphoria
-gender expression
-gender identity
-gender ideology
-gender nonconformity
-gender transition
-gender-affirming care
-gendered
-genders
+gender && based
+gender && based && violence
+gender && diversity
+gender && dysphoria
+gender && expression
+gender && identity
+gender && ideology
+gender && nonconformity
+gender && transition
+gender-affirming && care
+gender*
 geothermal
-ghg emission
-ghg modeling
-ghg monitoring
-global warming
+ghg && emission
+ghg && modeling
+ghg && monitoring
+global && warming
 green
-green infrastructure
-greenhouse gas emission
-groundwater pollution
-gulf of mexico
-h5n1/bird flu
+green && infrastructure
+greenhouse && gas && emission
+groundwater && pollution
+gulf && of && mexico
+h5n1/bird && flu
 hate
-hate speech
-health disparity
-health equity
-hispanic
-hispanic minority
-historically
-housing affordability
-housing efficiency
-hydrogen vehicle
-identity
-ideology
+hate && speech
+health && disparity
+health && equity
+his*
+hispanic && minority
+housing && affordability
+housing && efficiency
+hydrogen && vehicle
+ide*
 immigrants
-implicit bias
-implicit biases
-inclusion
-inclusive
-inclusive leadership
-inclusiveness
-inclusivity
-increase diversity
-increase the diversity
+implicit && bias
+implicit && biases
+inclusi*
+inclusive && leadership
+increase && diversity
+increase && the && diversity
 indigenous
-indigenous community/ people
-inequalities
-inequality
-inequitable
-inequities
+indigenous && community/ && people
+inequ*
 injustice
 institutional
-integration
-intersectional
-intersectionality
-intersex
-issues concerning pending legislation
+inte*
+issues && concerning && pending && legislation
 justice40
-key groups
-key people
-key populations
+key && groups
+key && people
+key && populations
 latinx
 lesbian
-lgbt
-lgbtq
-low-emission vehicle
-low-income housing
-male dominated
-marginalize
-marginalized
-marijuana
+lgbt*
+low-emission && vehicle
+low-income && housing
+male && dominated
+mar*
 measles
-membrane filtration
-men who have sex with men
-mental health
-methane emissions
+membrane && filtration
+men && who && have && sex && with && men
+mental && health
+methane && emissions
 microplastics
 migrant
-minorities
-minority
-minority serving institution
-most risk
+minorit*
+minority && serving && institution
+most && risk
 msi
 msm
 multicultural
 mx
-native american
-nci budget
+native && american
+nci && budget
 net-zero
-non-binary
 non-conforming
-nonbinary
+nonbinary*
 noncitizen
-nonpoint source pollution
-nuclear energy
-nuclear power
+nonpoint && source && pollution
+nuclear && energy
+nuclear && power
 obesity
 opioids
-oppression
-oppressive
+oppressi*
 orientation
 pansexual
 pcb
-peanut allergies
-people + uterus
-people of color
-people-centered care
+peanut && allergies
+people && + && uterus
+people && of && color
+people-centered && care
 person-centered
-person-centered care
+person-centered && care
 pfas
 pfoa
 photovoltaic
-polarization
-political
-pollution
-pollution abatement
-pollution remediation
-prefabricated housing
-pregnant people
-pregnant person
-pregnant persons
+pol*
+pollution && abatement
+pollution && remediation
+prefabricated && housing
+pregnant && people
+pregnant && person
+pregnant && persons
 prejudice
-privilege
-privileges
-promote
-promote diversity
-promoting diversity
-pronoun
-pronouns
-prostitute
+privilege*
+pro*
+promote && diversity
+promoting && diversity
 pyrolysis
 qt
 queer
-race
-race and ethnicity
-racial
-racial diversity
-racial identity
-racial inequality
-racial justice
-racially
-racism
+rac*
+race && and && ethnicity
+racial && diversity
+racial && identity
+racial && inequality
+racial && justice
 runoff
-rural water
-safe drinking water
+rural && water
+safe && drinking && water
 science-based
-sediment remediation
+sediment && remediation
 segregation
 self-assessed
-sense of belonging
-sex
-sexual preferences
-sexuality
-social justice
-social vulnerability
-socio cultural
-socio economic
-sociocultural
-socioeconomic status
-soil pollution
-solar energy
-solar power
-special populations
-stem cell or fetal tissue research
-stereotype
-stereotypes
-subsidized housing
+sense && of && belonging
+sex*
+sexual && preferences
+social && justice
+social && vulnerability
+socio && economic
+sociocultural*
+socioeconomic && status
+soil && pollution
+solar && energy
+solar && power
+special && populations
+stem && cell && or && fetal && tissue && research
+stereotype*
+subsidized && housing
 sustainability/sustainable
-sustainable construction
-systemic
-systemically
-tax breaks
-tax credits
-tax subsidies
+sustainable && construction
+systemic*
+tax && breaks
+tax && credits
+tax && subsidies
 they/them
-tile drainage
-topics of federal investigations
-topics that have received recent attention from congress
-topics that have received widespread or critical media attention
-trans
-transexual
-transexualism
-transexuals
-transgender
-transgender military personnel
-transgender people
-transitional housing
-trauma
-traumatic
+tile && drainage
+topics && of && federal && investigations
+topics && that && have && received && recent && attention && from && congress
+topics && that && have && received && widespread && or && critical && media && attention
+tra*
+transgender && military && personnel
+transgender && people
+transitional && housing
 tribal
 two-spirit
-unconscious bias
-under appreciated
-under represented
-under served
-underprivileged
-underrepresentation
-underrepresented
-underserved
-understudied
-undervalued
+unconscious && bias
+under && appreciated
+under*
+underrepresented*
+underserved*
 vaccines
-victim
-victims
+victim*
 vulnerable
-vulnerable populations
-water collection
-water conservation
-water distribution
-water efficiency
-water management
-water pollution
-water quality
-water storage
-water treatment
-white privilege
-wind power
-woman
-women
-women and underrepresented
-women in leadership
+vulnerable && populations
+water && collection
+water && conservation
+water && distribution
+water && efficiency
+water && management
+water && pollution
+water && quality
+water && storage
+water && treatment
+white && privilege
+wind && power
+wom*
+women && and && underrepresented
+women && in && leadership
