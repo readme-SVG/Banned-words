@@ -1,43 +1,42 @@
-[![readme-SVG/Banned-words](https://raw.githubusercontent.com/OstinUA/Image-storage/main/readme/Banned-words/readme-SVG-Banned-words_security.png)](https://github.com/OstinUA)
+[![SECURITY](https://github.com/OstinUA/Promt-AI-Helper/blob/main/Additional%20files/Image/SECURITY.svg)](https://github.com/OstinUA)
 
----
+[![Security Policy](https://img.shields.io/badge/Security-Policy-red?style=for-the-badge&logo=shield&logoColor=white)](https://github.com/OstinUA)
+[![Report Vulnerability](https://img.shields.io/badge/Report-Vulnerability-orange?style=for-the-badge&logo=github&logoColor=white)](https://github.com/OstinUA)
+[![OstinUA](https://capsule-render.vercel.app/api?type=rect&color=e05d44&height=2&)](https://github.com/OstinUA)
 
-## Reporting a Vulnerability
+Security is something I take seriously. If you've found a vulnerability in any of my projects, I genuinely appreciate you taking the time to let me know — responsibly.
 
-If you discover a security issue related to this repository (for example, abuse scenarios, unsafe usage, or integration risks), please report it responsibly:
+## ⬢ Reporting a Vulnerability
 
-- Open a private security advisory on GitHub (preferred), or
-- Contact the maintainer through available repository contact channels.
+**Please do not open a public Issue for security vulnerabilities.**
 
-Please include:
+Instead, report them privately so we have time to address the issue before it becomes public knowledge. You can do this via:
 
-- A clear description of the issue
-- Steps to reproduce (if applicable)
-- Potential impact
-- Suggested mitigation (optional)
+* **GitHub Private Security Advisory** — go to the `Security` tab of the relevant repository and click `Report a vulnerability`.
+* **Direct message** — reach out to me on Discussions: [Readme/OstinUA](https://github.com/OstinUA/OstinUA/discussions/categories/reporting-a-vulnerability)
 
-The maintainer will review reports as quickly as possible and coordinate fixes where needed.
+Please include as much detail as possible:
+- A clear description of the vulnerability
+- Steps to reproduce it
+- The potential impact you see
+- Any suggestions for a fix (optional, but always welcome)
 
-## Important Context and Intent
+## ⬢ What to Expect
 
-This repository contains a curated list of prohibited/offensive words strictly for defensive and educational purposes.
+* I will acknowledge your report as soon as possible (usually within a few days).
+* I'll keep you updated as I investigate and work on a fix.
+* Once the fix is released, I'm happy to credit you in the release notes if you'd like.
 
-The intent is to help developers and moderators:
+## ⬢ Scope
 
-- build content filters,
-- detect and block harmful language in repositories and user-generated content,
-- reduce abuse and harassment in online communities.
+This policy applies to all public repositories under the [OstinUA](https://github.com/OstinUA) GitHub account and all other organizations or projects owned or managed by this user.
 
-The author does **not** endorse, promote, or encourage the use of these terms. The list is provided only to support moderation, safety tooling, and research.
+## ⬢ Out of Scope
 
-No offense is intended toward any individual or group. If any entry appears inappropriate, harmful, or contextually incorrect, please open an issue or submit a pull request so it can be reviewed and improved.
+* Vulnerabilities in third-party dependencies — please report those to the respective maintainers.
+* Issues that require physical access to a device.
+* Social engineering attempts.
 
-## Responsible Usage
+Thank you for helping keep this project and its users safe.
 
-By using this repository, you agree to:
-
-- Use the data only for moderation, protection, and safety purposes
-- Follow applicable laws, platform policies, and ethical guidelines
-- Avoid republishing the list in ways that could facilitate harassment or abuse
-
-Misuse of this repository's content is against its purpose.
+[![OstinUA](https://capsule-render.vercel.app/api?type=rect&color=e05d44&height=2&)](https://github.com/OstinUA)
